@@ -1,0 +1,12 @@
+[package]
+name = "lau-optimal-transport-agents"
+version = "0.1.0"
+edition = "2021"
+description = "Optimal transport theory — Wasserstein distances, Sinkhorn algorithm, Monge-Kantorovich, earth mover's distance — for measuring the true distance between agent populations"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
